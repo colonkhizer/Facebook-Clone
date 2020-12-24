@@ -1,0 +1,83 @@
+.app {
+    background-color: #f1f2f5;
+  }
+  
+  .app__body {
+    display: flex;
+  }
+
+  .dark-mode .app {
+    background-color: #18191a;
+  }
+
+  .dark-mode .header {
+    background-color: #242526;
+  }
+  .dark-mode .header__input {
+    background-color: #3a3b3c;
+    
+  }
+  .dark-mode .header__input > input {
+    color: #e4e6eb;
+  }
+  .dark-mode .header__input > .MuiSvgIcon-root {
+    fill: #a8abaf;
+  }
+  .dark-mode .header__info > h4 {
+    color: #e2e4e9
+  }
+  .dark-mode .header__right  .MuiSvgIcon-root {
+    fill: #e4e6eb
+  }
+
+  .dark-mode .messageSender {
+    background-color: #242526;
+  }
+  .dark-mode .messageSender__top {
+    border-bottom: 1px solid #4c4c4c;
+}
+.dark-mode .messageSender__top > form > input {
+    background-color: #3a3b3c;
+    color: #e4e6eb;
+  }
+
+  .dark-mode .messageSender__option:hover {
+    background-color: #3a3b3c;
+}
+  .dark-mode .post {
+    background-color: #242526;
+}
+
+.dark-mode .post__topInfo > h3 {
+  color: #e4e6eb;
+}
+.dark-mode .post__topInfo > p {
+  color: #e4e6eb; 
+}
+.dark-mode .post__bottom > p {
+  color: #e4e6eb; 
+}
+.dark-mode .post__options {
+  border-top: 1px solid #4c4c4c;
+
+}
+.dark-mode .post__option:hover {
+  background-color: #3a3b3c;
+}
+
+.post__options .MuiAvatar-root {
+  width: 20px;
+  height: 20px;
+}
+.dark-mode .sidebarRow > h4 {
+  color: #e4e6eb; 
+}
+.dark-mode .sidebarRow:hover {
+  background-color: #3a3b3c;
+}
+.dark-mode .header__option:hover {
+  background-color: #3a3b3c;
+}
+
+
+
